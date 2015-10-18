@@ -8,6 +8,8 @@ public class SatPix {
 		boolean[][] booleanArr = fileToBoolArray("satpix.in");
 		int sizeOfLargestPasture;
 		
+		/* YOUR CODE GOES HERE */
+		
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("satpix.out")));
 		out.println(sizeOfLargestPasture);
 		out.close();
